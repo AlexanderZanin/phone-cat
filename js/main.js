@@ -43,7 +43,7 @@ class Phone {
 		view.appendChild(item);
 	}
 
-	renderPhone() {
+	render() {
 		const data = this.data;
 
 		for (let i = 0; i < data.length; i++) {
@@ -71,5 +71,5 @@ fetch('https://raw.githubusercontent.com/odesskij/AngularPhoneCat/master/src/api
 
 	// renderCards(phones);
 
-	new Phone(phones).renderPhone();
+	new Phone(phones).render();
 });

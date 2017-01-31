@@ -38,8 +38,8 @@ var Phone = function () {
 	}
 
 	_createClass(Phone, [{
-		key: 'renderPhone',
-		value: function renderPhone() {
+		key: 'render',
+		value: function render() {
 			var data = this.data;
 
 			for (var i = 0; i < data.length; i++) {
@@ -75,5 +75,5 @@ fetch('https://raw.githubusercontent.com/odesskij/AngularPhoneCat/master/src/api
 
 	// renderCards(phones);
 
-	new Phone(phones).renderPhone();
+	new Phone(phones).render();
 });
