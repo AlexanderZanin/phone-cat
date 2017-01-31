@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phonecat</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font: 18px/1 'PT Sans', sans-serif;
+		}
+		figure {
+			margin: 0;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.l-container {
+			max-width: 980px;
+			width: 100%;
+			margin: auto;
+		}
+		.phones-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			text-align: center;
+		}
+		.phone-item {
+			padding: 20px;
+			width: 40%;
+			border: 1px solid #898888;
+			margin-bottom: 20px;
+		}
+		.phone-item__name {
+			margin-top: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="l-container">
+		<ul id="list" class="phones-list"></ul>
+	</div>
+<script src="dist/main.js"></script>
+</body>
+</html>
